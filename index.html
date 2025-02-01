@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.5/daisyui.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -118,7 +119,7 @@
 </section>
 
 <section>
-    <div class="py-8 lg:p-30  md:py-8 text-center bg-white md:py-14">
+    <div class="py-8 lg:p-30  md:py-8 text-center bg-white">
 
        <h1 class="text-4xl font-bold text-left mb-8 text-[#179800] mx-20" >Services </h1>
 
@@ -157,10 +158,19 @@
 
     <div class="grid md:flex  bg-[#efebe3] gap-10 content-center shrink-0 justify-center">
         <!-- Left Image -->
-         <div class="">
-            <p></p>
-            <img class="w-full" src="src/vegetable-offer.png" alt="">
-         </div>
+         
+        <div style="background: linear-gradient(to bottom right, #60e698, white);" class="rounded-xl my-6">
+
+        <img src="src/vegetable-offer.png" >
+        </div>
+
+
+
+
+
+
+
+
 
         <!-- Right Items -->
          <div class="grid grid-cols-2 gap-4 xl:grid-cols-3 p-6 shrink-0">
@@ -473,14 +483,24 @@
       </footer>
 
 
-
-
-
-
-
-
-
-
+    
+      <div style="
+      position: relative;
+      height: 16rem;
+      background: linear-gradient(to bottom right, #48bb78, white);">
+      
+      <img 
+          src="src/vegetable-offer.png" 
+          alt="Image" 
+          style="
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 6rem;
+              height: 6rem;
+          "
+      >
+      </div>
 
 </body>
 </html>
