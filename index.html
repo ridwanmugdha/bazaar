@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.5/daisyui.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.5/themes.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 <body>
@@ -30,7 +31,7 @@
                 </div>
 
                 <!-- Right side elements -->
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 ">
                     <!-- Magnifying glass icon (search) -->
                     <a href="#" class="text-gray-700 hover:text-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -48,7 +49,39 @@
                     <!-- Login and Register buttons -->
                     <a href="#" class="text-gray-700 border-2 border-[#179800] px-8 py-2 rounded-md hover:border-[#3b8b2d] ">Login</a>
                     <a href="#" class=" text-white bg-[#179800] px-8 py-2 rounded-md hover:bg-green-800" >Register</a>
+
                 </div>
+            
+                <div class="lg:hidden md:hidden">
+                    <label class="btn btn-circle swap swap-rotate">
+                        <!-- this hidden checkbox controls the state -->
+                        <input type="checkbox" />
+                      
+                        <!-- hamburger icon -->
+                        <svg
+                          class="swap-off fill-current"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="32"
+                          height="32"
+                          viewBox="0 0 512 512">
+                          <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+                        </svg>
+                      
+                        <!-- close icon -->
+                        <svg
+                          class="swap-on fill-current"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="32"
+                          height="32"
+                          viewBox="0 0 512 512">
+                          <polygon
+                            points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+                        </svg>
+                      </label>
+                </div>
+
+
+
             </div>
         </div>
     </nav>
@@ -110,16 +143,213 @@
 
 
 
+<section>
+    <!-- Items section  -->
+
+    <div class="flex px-60 bg-[#efebe3] gap-10 content-center">
+        <!-- Left Image -->
+         <div class="">
+            <p></p>
+            <img class="w-full" src="src/vegetable-offer.png" alt="">
+         </div>
+
+        <!-- Right Items -->
+         <div class="grid grid-cols-2 gap-4 xl:grid-cols-3 p-6">
+
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/onion.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.5</p>
+                    <p class="font-semibold"></i>Onion  KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/tomato.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.8</p>
+                    <p class="font-semibold"></i>Tomato KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/potato.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.2</p>
+                    <p class="font-semibold"></i>Potato 3 KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/potato.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.3</p>
+                    <p class="font-semibold"></i>Potato 5 KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/onion.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.6</p>
+                    <p class="font-semibold"></i>Onion 1 KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/tomato.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.9</p>
+                    <p class="font-semibold"></i>Tomato KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/onion.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.2</p>
+                    <p class="font-semibold"></i>Onion 1 KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/potato.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.5</p>
+                    <p class="font-semibold"></i>Potato 1 KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+
+            <div class="flex bg-white rounded-md">
+                <!-- Image -->
+                <div>
+                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/onion.png" alt="">
+                </div>
+                <!-- Text -->
+                <div class="pr-10 py-2">
+                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.8</p>
+                    <p class="font-semibold"></i>Onion 1 KG</p>
+                    <p>$39.99</p>
+                </div>
+            </div>
+               
+                
+         </div>
+    </div>
+</section>
+
+
+<h1 class="text-4xl font-bold text-left mb-8 text-[#179800] mx-20 my-10" >Arrival and Offers </h1>
+
+
+<section>
+    <div class="flex mx-auto">
+        <!-- Left Side -->
+        
+        <div class="bg-[#115414] mr-8 ml-8 flex rounded-lg">
+            <div>
+                    <img src="src/dawat-logo.png" alt="" class="mt-12 ml-10">
+                    <p class=" p-2 bg-[#63B76D] mt-8 ml-16 text-center rounded-lg">Cook Exotic Dishes</p>
+                    <p class="text-white pl-16 text-3xl">UP to <span class="font-semibold"> 20% OFF </span></p>
+            </div>
+
+            <div class="m-8">
+                <img src="src/dawat-mock-up.png" alt="">
+            </div>
+        </div>
+
+
+
+        <!-- Right Side -->
+        <div class="bg-[#115414] ml-8 flex rounded-lg">
+            <div>
+                    <img src="src/india-gate-logo.png" alt="" class="mt-12 ml-10 pr-80">
+                    <p class=" p-2 bg-[#63B76D] mt-8 ml-16 text-center rounded-lg">Cook Exotic Dishes</p>
+                    <p class="text-white pl-16 text-3xl">UP to <span class="font-semibold"> 20% OFF </span></p>
+            </div>
+
+            <div class="m-8">
+                <img src="src/india-gate-mock-up.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+<h1 class="text-4xl font-bold text-left mb-8 text-[#179800] mx-20 my-10" >Popular Products </h1>
+
+
+
+
+
+
+
 
 
 <section>
 
-    <div class="flex">
-        <div class="mx-auto text-center justify-center">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quod tempora blanditiis odio explicabo totam praesentium, 
-                earum magnam similique provident harum nam excepturi amet 
-                nobis alias nulla veritatis facere. Corporis, blanditiis.</p>
+    <div class="hero-content flex-col lg:flex-row-reverse ">
+        
+        
+        <div>
+            <h1 class="text-5xl font-bold">Big Busket News!</h1>
+            <p class="py-6">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+              quasi. In deleniti eaque aut repudiandae et a id nisi.
+            </p>
+            <button class="btn btn-primary bg-[#179800] px-4 py-2 text-white">Get Started</button>
         </div>
 
         <div>
@@ -132,16 +362,48 @@
 </section>
 
 
+<section>
+   <div class="flex bg-[#EFEBE3] mx-80 rounded-2xl mb-16 mt-8 gap-16 relative top-60">
+        <!--Image  -->
+    
+        <div>
+            <img class="my-8" src="src/vegetable-busket.png" alt="">
+        </div>
+
+        <!-- Text -->
+        <div class="space-y-6 mt-8 mx-auto px-8 py-10">
+
+
+            <p class="text-3xl font-bold">Get Grocery News!</p>
+            <p class="text-lg ">Exclusive training tips, ticks, product deals and more.</p>
+
+            <label class="input input-bordered flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  class="h-4 w-4 opacity-70">
+                  <path
+                    d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+                  <path
+                    d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+                </svg>
+                <input type="text" class="grow" placeholder="Email" />
+              </label>
+            
+            <button><a href="#" class=" text-white bg-[#179800] px-8 py-2 rounded-md hover:bg-green-800" >Subscribe</a></button>
+        </div>
+
+
+   </div>
+</section>
 
 
 
 
+    <footer class="footer sm:footer-horizontal bg-base-200 text-base-content pt-60 pb-16 bg-[#179800] text-white px-20">
+       
 
-
-
-
-
-    <footer class="footer sm:footer-horizontal bg-base-200 text-base-content p-10 bg-[#179800] text-white">
         <aside>
          <img src="src/logo-footer.png" alt="">
           <p>
@@ -203,6 +465,15 @@
             </div>
           </nav>
       </footer>
+
+
+
+
+
+
+
+
+
 
 
 </body>
