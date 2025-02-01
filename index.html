@@ -31,28 +31,33 @@
                 </div>
 
                 <!-- Right side elements -->
-                <div class="flex items-center space-x-4 ">
-                    <!-- Magnifying glass icon (search) -->
-                    <a href="#" class="text-gray-700 hover:text-green-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                        </svg>
-                    </a>
+                 <div class="hidden md:block">
+                    <div class=" flex items-center space-x-4 ">
 
-                    <!-- Shopping cart icon -->
-                    <a href="#" class="text-gray-700 hover:text-green-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                    </a>
 
-                    <!-- Login and Register buttons -->
-                    <a href="#" class="text-gray-700 border-2 border-[#179800] px-8 py-2 rounded-md hover:border-[#3b8b2d] ">Login</a>
-                    <a href="#" class=" text-white bg-[#179800] px-8 py-2 rounded-md hover:bg-green-800" >Register</a>
-
-                </div>
+                        <!-- Magnifying glass icon (search) -->
+                        <a href="#" class="text-gray-700 hover:text-green-600 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </a>
+    
+                        <!-- Shopping cart icon -->
+                        <a href="#" class="text-gray-700 hover:text-green-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </a>
+    
+                        <!-- Login and Register buttons -->
+                        <a href="#" class="text-gray-700 border-2 border-[#179800] px-8 py-2 rounded-md hover:border-[#3b8b2d] ">Login</a>
+                        <a href="#" class=" text-white bg-[#179800] px-8 py-2 rounded-md hover:bg-green-800" >Register</a>
+    
+                    </div>
+                 </div>
+                
             
-                <div class="lg:hidden md:hidden">
+                <div class="md:hidden">
                     <label class="btn btn-circle swap swap-rotate">
                         <!-- this hidden checkbox controls the state -->
                         <input type="checkbox" />
@@ -88,7 +93,7 @@
 
 
 
-    <div class="mx-80 text-center">
+    <div class="md:mx-80  text-center ">
         <h1 class="mt-8 py-4 text-5xl justify-center ">
             Freshness <span class=" text-[#179800] font-semibold">You Can <br>
             Count On</span>, Prices You’ll Love!
@@ -113,7 +118,7 @@
 
        <h1 class="text-4xl font-bold text-left mb-8 text-[#179800] mx-20" >Services </h1>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mx-20 ">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:mx-20 ">
             <!-- Card 1 -->
             <div class="bg-[#EFEBE3] p-6 rounded-lg shadow-md ">
                 <img class="mx-auto" src="src/service.png" alt="">
@@ -146,7 +151,7 @@
 <section>
     <!-- Items section  -->
 
-    <div class="flex px-60 bg-[#efebe3] gap-10 content-center">
+    <div class="flex md:px-60 bg-[#efebe3] gap-10 content-center shrink-0 justify-center">
         <!-- Left Image -->
          <div class="">
             <p></p>
@@ -154,10 +159,10 @@
          </div>
 
         <!-- Right Items -->
-         <div class="grid grid-cols-2 gap-4 xl:grid-cols-3 p-6">
+         <div class="grid grid-cols-2 gap-4 xl:grid-cols-3 p-6 shrink-0">
 
 
-            <div class="flex bg-white rounded-md">
+            <div class="flex bg-white rounded-md shrink-0">
                 <!-- Image -->
                 <div>
                     <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/onion.png" alt="">
@@ -266,18 +271,22 @@
                 </div>
             </div>
 
-            <div class="flex bg-white rounded-md">
-                <!-- Image -->
-                <div>
-                    <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/onion.png" alt="">
-                </div>
-                <!-- Text -->
-                <div class="pr-10 py-2">
-                    <p><i class="fa-solid fa-star text-yellow-300"></i> 4.8</p>
-                    <p class="font-semibold"></i>Onion 1 KG</p>
-                    <p>$39.99</p>
+
+            <div class="hidden md:block">
+                <div class="flex bg-white rounded-md">
+                    <!-- Image -->
+                    <div>
+                        <img class="bg-[#EFEBE3] m-2 rounded-xl mask mask-hexagon" src="src/onion.png" alt="">
+                    </div>
+                    <!-- Text -->
+                    <div class="pr-10 py-2">
+                        <p><i class="fa-solid fa-star text-yellow-300"></i> 4.8</p>
+                        <p class="font-semibold"></i>Onion 1 KG</p>
+                        <p>$39.99</p>
+                    </div>
                 </div>
             </div>
+          
                
                 
          </div>
@@ -288,18 +297,18 @@
 <h1 class="text-4xl font-bold text-left mb-8 text-[#179800] mx-20 my-10" >Arrival and Offers </h1>
 
 
-<section>
-    <div class="flex mx-auto">
+<!-- Arrival and Offers -->
+    <div class="grid md:flex  gap-6 md:gap-8 shrink-0 justify-center">
         <!-- Left Side -->
         
-        <div class="bg-[#115414] mr-8 ml-8 flex rounded-lg">
+        <div class="bg-[#115414]  md:ml-20 flex rounded-lg ">
             <div>
-                    <img src="src/dawat-logo.png" alt="" class="mt-12 ml-10">
+                    <img src="src/dawat-logo.png" alt="" class="mt-12 ml-10 shrink-0 ">
                     <p class=" p-2 bg-[#63B76D] mt-8 ml-16 text-center rounded-lg">Cook Exotic Dishes</p>
                     <p class="text-white pl-16 text-3xl">UP to <span class="font-semibold"> 20% OFF </span></p>
             </div>
 
-            <div class="m-8">
+            <div>
                 <img src="src/dawat-mock-up.png" alt="">
             </div>
         </div>
@@ -307,20 +316,20 @@
 
 
         <!-- Right Side -->
-        <div class="bg-[#115414] ml-8 flex rounded-lg">
+        <div class="bg-[#115414]  flex rounded-lg  ">
             <div>
-                    <img src="src/india-gate-logo.png" alt="" class="mt-12 ml-10 pr-80">
+                    <img src="src/india-gate-logo.png" alt="" class="mt-12 ml-10">
                     <p class=" p-2 bg-[#63B76D] mt-8 ml-16 text-center rounded-lg">Cook Exotic Dishes</p>
                     <p class="text-white pl-16 text-3xl">UP to <span class="font-semibold"> 20% OFF </span></p>
             </div>
 
-            <div class="m-8">
+            <div>
                 <img src="src/india-gate-mock-up.png" alt="">
             </div>
         </div>
 
     </div>
-</section>
+
 
 
 
@@ -329,13 +338,6 @@
 
 
 <h1 class="text-4xl font-bold text-left mb-8 text-[#179800] mx-20 my-10" >Popular Products </h1>
-
-
-
-
-
-
-
 
 
 <section>
@@ -363,7 +365,7 @@
 
 
 <section>
-   <div class="flex bg-[#EFEBE3] mx-80 rounded-2xl mb-16 mt-8 gap-16 relative top-60">
+   <div class="grid md:flex bg-[#EFEBE3] md:mx-40 rounded-2xl mb-16 mt-8 gap-16 md:relative top-60">
         <!--Image  -->
     
         <div>
@@ -401,7 +403,7 @@
 
 
 
-    <footer class="footer sm:footer-horizontal bg-base-200 text-base-content pt-60 pb-16 bg-[#179800] text-white px-20">
+    <footer class="footer sm:footer-horizontal bg-base-200 text-base-content md:pt-60 pb-16 bg-[#179800] text-white px-20">
        
 
         <aside>
